@@ -8,42 +8,42 @@ public class Plants extends Character{
 	//freq = freq1;
 	xCor = xCor1;
 	yCor = yCor1;
-	if (type1 == "P") {
+	if (type1.equals("P")) {
 	    symbol = "P";
 	    health = 10;
 	    atk = 5;
 	    cost = 5;
 	}
     
-	if (type1 == "S") {
+	if (type1.equals("S")) {
 	    symbol = "S";
 	    health = 6;
 	    atk = 4;
 	    cost = 3;
 	}
     
-	if (type1 == "T") {
+	if (type1.equals("T")) {
 	    symbol = "T";
 	    health = 25;
 	    atk = 0;
 	    cost = 10;
 	}
     
-	if (type1 == "B") {
+	if (type1.equals("B")) {
 	    symbol = "B";
 	    health = 10;
 	    atk = 7;
 	    cost = 8;
 	}
     
-	if (type1 == "C") {
+	if (type1.equals("C")) {
 	    symbol = "C";
 	    health = 8;
 	    atk = 8;
 	    cost = 7;
 	}
     
-	if (type1 == "W") {
+	if (type1.equals("W")) {
 	    symbol = "W";
 	    health = 15;
 	    atk = 15;
